@@ -1,0 +1,20 @@
+Arduino UNO R3
+Placa de expansiune Ethernet
+Card micro-SD
+Solenoid lock
+Releu
+Alimentator releu
+Numpad
+Buton
+~20 fire tata-tata
+
+
+
+2. https://cleste.ro/placa-de-expansiune-ethernet-w5100.html?utm_medium=GoogleAds&utm_campaign=ShoppingAds&utm_source=&gclid=Cj0KCQjwppSEBhCGARIsANIs4p6Jd0aBNbjjfs2l3el5Uipq8ttEc9NS6mmNBsYs4qoBw-TJ5ZjWMwEaAvsIEALw_wcB
+4. https://www.robofun.ro/solenoid-5v-small.html?gclid=Cj0KCQjwppSEBhCGARIsANIs4p7pf8L4xC6FRaEsEuP2BuNvmD5LWgTGEVEJkgjDnWUOmjG57ROg6ccaAvy0EALw_wcB
+https://cleste.ro/incuietoare-electrica-12v.html
+5. https://cleste.ro/modul-releu-de-protec-ie-supratensiune.html?utm_medium=GoogleAds&utm_campaign=ShoppingAds&utm_source=&gclid=Cj0KCQjwppSEBhCGARIsANIs4p5Gi4b7wbajVGMQGCRylU0ibBeexDw1fqzBlq0YuAw8ukcvbo1kikMaAgiqEALw_wcB
+6. https://cleste.ro/alimentator-12v-2a.html
+7. https://cleste.ro/tasta-numerica-4x4.html?utm_medium=GoogleAds&utm_campaign=ShoppingAds&utm_source=&gclid=Cj0KCQjwppSEBhCGARIsANIs4p6OIsbDRWtp2_q59LS8oHCwsJT-vBoSwj3cPmXA21Hbab4zj-GtmgUaAkgUEALw_wcB
+
+

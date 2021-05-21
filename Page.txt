@@ -1,0 +1,32 @@
+====== Facial Recognition Locker ======
+===== Autor =====
+[[razvan.apetroaie@stud.acs.upb.ro|Apetroaie Razvan-Mihai]]
+
+===== Introducere =====
+  * Metodele traditionale de a obtine accesul sunt metode de tipul "something you have" (descuierea usii folosind o cheie) si "something you know" (parola propriului cont). Scopul proiectului este implementarea unei metode "something you are", mai exact recunoasterea faciala, oferind accesul fara necesitatea de a memora sau a detine un obiect anume.
+  * Proiectul isi propune controlarea unei incuietori electrice pe baza capturii realizate de o camera atasata si a rezultatului dat de un server extern in urma procesarii imaginii.
+
+===== Descriere generala =====
+Ansamblul va avea atasat o camera VGA ce va realiza capturi la apasarea butonului. Imaginea va fi trimisa la un server extern folosind un modul Ethernet, unde aceasta va avea rol de input pentru modelul de recunoastere faciala implementat, urmand ca raspunsul sa fie transmis placutei Arduino. Microcontrolerul va putea atunci sa actioneze asupra incuietoarei prin intermediul unui releu.\\
+Alternativ, accesul se poate oferi in urma introducerii parolei setate folosind numpad-ul atasat.
+{{https://ocw.cs.pub.ro/courses/_media/pm/prj2021/cghenea/face_recognition_locker_diagram.jpg?600x200}}
+
+===== Hardware Design =====
+Componente necesare:
+  * Arduino UNO R3
+  * Modul extern Ethernet
+  * Camera VGA
+  * Modul releu 12V
+  * Incuietoare electrica 12V
+  * Tastatura numerica 4*4
+  * Push button
+  * Fire mama-tata, tata-tata
+
+===== Software Design =====
+===== Rezultate Obtinute =====
+===== Concluzii =====
+===== Download =====
+===== Jurnal =====
+  * 25 Aprilie - Alegerea temei proiectului si crearea paginii de documentatie.
+===== Bibliografie/Resurse =====
+PDF: [[https://ocw.cs.pub.ro/courses/pm/prj2021/cghenea/facial-recognition-locker?do=export_pdf]]
