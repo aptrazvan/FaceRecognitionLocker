@@ -541,7 +541,7 @@ void arduinoUnoInut(void) {
   TCCR0B = (1 << WGM02) | (1 << CS00);
   OCR0A = 0;//(F_CPU)/(2*(X+1))
   DDRC &= ~15;//low d0-d3 camera
-  DDRD &= ~188;//d7-d4 and interrupt pins
+  DDRD &= ~172;//d7-d4 and interrupt pins
   _delay_ms(3000);
   
     //set up twi for 100khz
@@ -580,7 +580,7 @@ static void captureImg(uint16_t wg, uint16_t hg){
       //while (!(PIND & 256));//wait for high
     while (x--){
       while ((PIND & 4));//wait for low
-            UDR0 = (PINC & 15) | (PIND & 184);
+            UDR0 = (PINC & 15) | (PIND & 160) | ((PINB & 2) << 5);
           while (!(UCSR0A & (1 << UDRE0)));//wait for byte to transmit
       while (!(PIND & 4));//wait for high
       while ((PIND & 4));//wait for low
@@ -597,7 +597,7 @@ void setup(){
   camInit();
   setRes();
   setColor();
-  wrReg(0x11, 16); //Earlier it had the value: wrReg(0x11, 12); New version works better for me :) !!!!
+  wrReg(0x11, 10); //Earlier it had the value: wrReg(0x11, 18); New version works better for me :) !!!!
 }
 
 
